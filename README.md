@@ -12,7 +12,7 @@ spring:
     ...
     ...
 ```
-Annotate @ReadOnly before any class/method, then it will use slave connection. This annotation will be ignored if current thread is in a active transaction. So don't worry about the side effect.
+Annotate @ReadOnly before any class/method, then it will use slave connection. This annotation will be ignored if current thread is in an active transaction. So don't worry about the side effect.  
 code sample 1:
 ```java
 import nameless.common.datasource.aop.ReadOnly;
